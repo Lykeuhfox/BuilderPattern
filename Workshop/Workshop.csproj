@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armory\ISuit.cs" />
     <Compile Include="Armor\IArmorComponent.cs" />
     <Compile Include="Armor\IArmpiece.cs" />
     <Compile Include="Armor\IBackpiece.cs" />

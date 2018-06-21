@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Workshop.Component
 {
-    class ArcReactor : IPowerSource
+    class ArcReactor : IComponent, IPowerSource
     {
+        public string Name { get; set; } = "Arc Reactor";
         public double Remaining { get; set; }
         public double Capacity { get; set; } = 500;
-
 
         public ArcReactor()
         {
@@ -39,6 +39,11 @@ namespace Workshop.Component
 
             Remaining -= amount;
             return Remaining;
+        }
+
+        public IEnumerable<IComponent> GetComponents()
+        {
+            return new List<IComponent>();
         }
     }
 }

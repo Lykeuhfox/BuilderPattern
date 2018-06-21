@@ -8,6 +8,7 @@ namespace Workshop.Component
 {
     interface IPowerSource
     {
+        double Remaining { get; set; }
         double Capacity { get; set; }
 
         double Draw(double amount);

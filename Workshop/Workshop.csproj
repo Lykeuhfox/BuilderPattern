@@ -48,8 +48,10 @@
     <Compile Include="Armor\IHeadpiece.cs" />
     <Compile Include="Armor\ILegpiece.cs" />
     <Compile Include="Armor\IShoulderpiece.cs" />
+    <Compile Include="Component\ArcReactor.cs" />
+    <Compile Include="Component\IArtificialIntelligence.cs" />
     <Compile Include="Component\IComponent.cs" />
-    <Compile Include="Component\IMobility.cs" />
+    <Compile Include="Component\IMobilityOption.cs" />
     <Compile Include="Component\IPowerSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Component\IWeapon.cs" />
